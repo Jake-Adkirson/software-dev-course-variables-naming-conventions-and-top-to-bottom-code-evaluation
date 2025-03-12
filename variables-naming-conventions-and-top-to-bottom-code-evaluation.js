@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let customer = "Alice";
+let items = 5;
+let cost = 20;
+let store = "Walledmart";
+let itemType = "food";
+let itemsPurchased = customer + " bought " + items + " " + itemType + " items for $" + cost + " from " + store + ".";
 
-console.log(d);
+console.log(itemsPurchased);
